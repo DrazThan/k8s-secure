@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: secure-app
+data:
+  config.json: |
+    {
+      "setting1": "value1",
+      "setting2": "value2"
+    }
